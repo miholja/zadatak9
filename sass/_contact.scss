@@ -1,0 +1,48 @@
+section.contact {
+    padding: 1em 10em;
+    background-color: $svetlo_siva2;
+    h1 {
+        text-align: center;
+        margin: 1em 2em;
+    }
+
+    div.flex-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    iframe {
+        width: 30%;
+    }
+
+    form {
+        width: 60%;
+        padding: 1.5em;
+        background-color: $crvena;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 1em;
+
+        div.flex-row {
+            gap: 2em;
+        }
+
+        input {
+            height: 2em;
+        }
+        select {
+            width: 20%;
+            background-color: white;
+        }
+        input, textarea {
+            display: inline-block;
+            width: 100%;
+        }
+
+        input, select, textarea {
+            border: none;
+            padding: 0.4em;
+        }
+    }
+}

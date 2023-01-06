@@ -2,8 +2,25 @@
 @import 'mixin';
 @import 'header';
 @import 'promos';
+@import 'pricing';
+@import 'contact';
 
 @include main;
 
+
+section.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5em;
+    padding: 2em 10em;
+}
+
+button {
+    background-color: white;
+    padding: 1em 2em;
+    border-radius: 3em;
+    border-width: 1px;
+    border-color:lightgray ;
+}
 
 

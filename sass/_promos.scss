@@ -1,0 +1,37 @@
+section.promos {
+    padding: 1em 10em;
+    background-color: $svetlo_siva2;
+
+    img {
+        width: 20%;
+        border-radius: 50%;
+        opacity: 0.4;
+    }
+
+    div.promo {
+        display: flex;
+        align-items: center;
+        gap: 5em;
+
+        h2 {
+            color: $tamno_plava;
+        }
+        p {
+            color: $crvena;
+        }
+
+        div {
+            visibility:hidden ;
+        }
+
+        &:hover div {
+            visibility: visible;
+        }
+        &:hover img {
+            opacity: 1;
+        }
+    }
+    div.reversed {
+        flex-direction: row-reverse;
+    }
+}

@@ -1,0 +1,37 @@
+section.pricing {
+    padding: 1em;
+
+    h1, p {
+        text-align: center;
+        margin: 1em 2em;
+    }
+
+    button {
+        display: none;
+    }
+
+    table {
+        margin: 2em auto;
+        width: 60%;
+        border-collapse: collapse;
+
+        td, th {
+            border: 1px $svetlo_siva solid;
+            text-align: center;
+            padding: 0.5em 1em;
+        }
+
+        .crvena {
+            background-color: $crvena;
+            color: white;
+        }
+        .tamna {
+            background-color: $tamno_plava;
+            color: white;
+        }
+        .no-border {
+            border: none;
+        }
+
+    }
+}
