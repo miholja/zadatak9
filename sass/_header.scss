@@ -1,0 +1,48 @@
+header {
+    background-image: url("../intro.jpg");
+    background-size: cover;
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        background-color: $tamno_plava;
+        color: white;
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            gap: 1.5em;
+
+            list-style: none;
+        }
+
+        ul > li, img {
+            margin: 1em 2em;
+        }
+
+        div {
+            background-color: $crvena;
+            margin-left: 2em;
+        }
+
+        div > img {
+            width: 2em;
+        }
+    }
+
+    div.cover {
+        background-color: $tamno_plava;
+        text-align: center;
+        margin-top: 30em;
+        padding: 0.5em;
+
+        h1 {
+            font-size: 48px;
+        }
+        h1, h2, p {
+            color: white;
+        }
+    }
+}

@@ -1,3 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+header {
+  background-image: url("../intro.jpg");
+  background-size: cover;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #374249;
+  color: white;
+}
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5em;
+  list-style: none;
+}
+header nav ul > li, header nav img {
+  margin: 1em 2em;
+}
+header nav div {
+  background-color: #f38181;
+  margin-left: 2em;
+}
+header nav div > img {
+  width: 2em;
+}
+header div.cover {
+  background-color: #374249;
+  text-align: center;
+  margin-top: 30em;
+  padding: 0.5em;
+}
+header div.cover h1 {
+  font-size: 48px;
+}
+header div.cover h1, header div.cover h2, header div.cover p {
+  color: white;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+@import "vars";
+
+@mixin main {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: $font;
+}
+
+}
+
+@mixin srednji-ekran {
+    @media screen and (max-width: 1080px) {
+        @content
+    }
+}
+
+@mixin mali-ekran {
+    @media screen and (max-width: 786px) {
+        @content
+    }
+}
